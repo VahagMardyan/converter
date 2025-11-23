@@ -1,2 +1,2 @@
 Converters
-https://vahagmardyan.github.io/converters/
+https://vahagmardyan.github.io/converter/
