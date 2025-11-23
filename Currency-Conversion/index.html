@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="USD currency converter">
+    <link rel="shortcut icon" href="../forLogo/logo.png" type="image/x-icon">
+    <title>Currency (USD) Converter</title>
+    <script defer src="./script.js" type="module"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script defer src="../CSS/genScript.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div id="parent">
+        <div class="main">
+            <h2>USD converter</h2>
+            <span></span>
+            <input type="text" placeholder="Input Money (USD):" required id="value" autocomplete="off">
+            <select id="select" title="Choose the currency" required>
+                <option value="" selected disabled>Choose The Currency</option>
+                <option value="ARS">Argentine Peso</option>
+                <option value="AMD" >Armenian Dram</option>
+                <option value="AUD">Australian Dollar</option>
+                <option value="CAD">Canadian Dollar</option>
+                <option value="CNY">Chinese Yuan</option>
+                <option value="VND">Dong (Vietnam)</option>
+                <option value="EGP">Egyptian Pound</option>
+                <option value="EUR">Euro</option>
+                <option value="GEL">Georgian Lari</option>
+                <option value="INR">Indian Rupee</option>
+                <option value="JPY">Japanese Yen</option>
+                <option value="GBP">Pound Sterling</option>
+                <option value="RUB">Russian Ruble</option>
+                <option value="KRW">South Korean Won</option>
+                <option value="SEK">Swedish Krona</option>
+                <option value="CHF">Swiss Franc</option>
+                <option value="KZT">Tenge (Kazakhstan)</option>
+                <option value="TND">Tunisian Dinar</option>
+                <option value="TRY">Turkish Lira</option>
+                <option value="UAH">Ukrainian Hryvnia</option>
+                <option value="AED">United Arab Emirates Dirham</option>
+                <option value="USD">United States Dollar</option>
+            </select>
+            <input type="search" id="search" placeholder="Search:" autocomplete="off">
+            <input type="text" id="result" placeholder="Result:" readonly>
+            <div class="btns">
+                <button id="convert">Convert</button>
+                <button id="reset">Reset</button>
+                <button id="convertByRealTime">Convert By Real Time</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

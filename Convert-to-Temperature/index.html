@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../forLogo/logo.png" type="image/x-icon">
+    <script defer src="../CSS/genScript.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="parent">
+            <div class="main">
+                <h2>Temperature Converter</h2>
+                <input type="text" id="value" placeholder="Input Number"  autocomplete="off">
+                <select id="select">
+                    <option value="" selected disabled>Choose the temperature</option>
+                    <option value="C">&deg;C</option>
+                    <option value="F">&deg;F</option>
+                    <option value="K">K</option>
+                </select>
+                <select id="converterValue">
+                    <option value="" selected disabled>Choose the temperature to convert</option>
+                    <option value="C">&deg;C</option>
+                    <option value="F">&deg;F</option>
+                    <option value="K">K</option>
+                </select>
+                <input type="text" id="result" placeholder="Result:" readonly>    
+                <div class="btns">
+                    <button id="convert">Convert</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
